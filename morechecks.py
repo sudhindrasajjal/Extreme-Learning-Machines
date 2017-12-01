@@ -29,18 +29,6 @@ def moremeasures(clusters,vectors,centroids):#list of points in each cluster, th
     print ssb
 
     vec=vectors.tolist()
-    #print c
-    # for i in range(len(vectors)):
-    #     x=0
-    #     for j in range(len(vectors[i])):
-    #         x=x+( vec[i][j] - c[j] )*( vec[i][j] - c[j] )
-    #         # if (( vec[i][j] - c[j] )*( vec[i][j] - c[j] ))>0 :
-    #         #     print ( vec[i][j] - c[j] )*( vec[i][j] - c[j] )
-    #     tss=tss+x
-
-    # sse=tss-ssb
-    # print"The SSE for the clustering"
-    # print sse
 
     for i in range(len(clusters)):
         for j in range(len(clusters[i])):

@@ -2,11 +2,6 @@ import math
 import numpy as np
 import random
 
-# def eudist(A,B):
-#     distance=0
-#     for i in range(len(A)):
-#         distance +=(A[i]-B[i])*(A[i]-B[i])
-#     return math.sqrt(distance)
 
 def updatelabels(data,centroids):
     cluster_list=[];
@@ -16,7 +11,6 @@ def updatelabels(data,centroids):
         mini=10000000
         n=0
         for j in range(len(centroids)):
-            # m=eudist(data[i],centroids[j])
             distance=0
             for k in range(len(data[i])):
                 distance +=(data[i][k]-centroids[j][k])*(data[i][k]-centroids[j][k])

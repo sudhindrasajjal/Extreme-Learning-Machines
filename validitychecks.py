@@ -22,4 +22,3 @@ def measures(clusters,cluster_labels, labels):
     print f1
     print "Accuracy:"
     print accuracy
-    # print "overall f-measure"
